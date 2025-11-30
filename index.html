@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Лорд Света</title>
+</head>
+
+
+
+<body>
+  <header class="container">
+
+    <nav class="navbar">
+      <h2>Лорд Света</h2> 
+      <button class="m-menu">
+        <!-- svg для адаптивности на мобильных устройствах -->
+        <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line y1="0.5" x2="15" y2="0.5" stroke="black" />
+          <line y1="6.5" x2="15" y2="6.5" stroke="black" />
+          <line y1="12.5" x2="15" y2="12.5" stroke="black" />
+            </svg>
+          </button>
+
+      <ul class="menu">
+        <li class="menu-item">
+          <a href="#" class="menu-link">ГЛАВНАЯ</a>
+        </li>
+        <li class="menu-item">
+          <a href="#preim-href" class="menu-link">ПРЕИМУЩЕСТВА</a>
+        </li>
+        <li class="menu-item">
+          <a href="#obomne-href" class="menu-link">ОБО МНЕ</a>
+        </li>
+        <li class="menu-item">
+          <a href="#portfolio-href" class="menu-link">ПОРТФОЛИО</a>
+        </li>
+        <li class="menu-item">
+          <a href="#contacts-href" class="menu-link">КОНТАКТЫ</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container2">
+    <div class="black">
+      <div id="main-text">
+        <div class="opacity">
+          <div class="main-lord">
+            <h1 id="LORD">Лорд Света</h1>
+            <p class="p-line-h" id="description-main">Электрик на все руки поменяет вам все лампочки в доме</p>
+              <div class="a-port"><a class="a-portfolio" href="#portfolio-href">ПОРТФОЛИО</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="my-preim-div">
+      <h2 id="preim-href" class="preim">Мои преимущества</h2>
+    </div>
+    <div class="img-preim">
+      <div class="preim-block">
+        <img src="img/quality.png" width="140" height="140" alt="">
+        <p class="preim-podpis">Гарантия качества</p>
+      </div>
+      <div class="preim-block">
+        <img src="img/lampa.png" width="140" height="140" alt="">
+        <p class="preim-podpis">Большой ассортимент лампочек</p>
+      </div>
+      <div class="preim-block">
+        <img src="img/skidos.png" width="140" height="140" alt="">
+        <p class="preim-podpis">Скидки</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <h2 id="obomne-href" class="preim">Обо мне</h2>
+    <div style="display: flex; justify-content: center;">
+      <img src="img/me.jpg" alt="мое фото" width="300px">
+    </div>
+    <p class="p-line-h">
+      Я - Тимофей Арлаковский, тот самый электрик, 
+      который заставляет все лампочки сиять! 
+    </p>
+    <p class="p-line-h">
+      Многие думают, что замена лампочек - это мелочь. Но я уверен: нет ничего важнее, чем комфортный свет в вашем доме.
+      Я помогу вам выбрать идеальную лампу для каждой комнаты - чтобы было уютно, 
+      объясню простыми словами, почему перегорают лампы и как этого избежать, всегда приду на помощь, 
+      когда в вашем доме внезапно наступает темнота. Давайте вместе сделаем вашу жизнь светлее!
+    </p>
+    <br>
+    
+  </div>
+
+<div class="container2">
+  <form class="feedback-form" id="feedbackForm">
+        <div class="form-group">
+            <label for="name">Имя</label>
+            <input type="text" id="name" name="name" placeholder="Введите ваше имя">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@mail.com">
+        </div>
+        <div class="form-group">
+            <textarea id="message" name="message" placeholder="Cообщение"></textarea>
+        </div>
+        <button type="submit" class="submit-btn" id="submitBtn">Отправить</button>
+    </form>
+</div>
+  <div class="container">
+    <h2 id="portfolio-href" class="preim">Портфолио</h2>
+  <div class="container">
+    <div class="portfolio-grid">
+
+        <div class="portfolio-item">
+            <div class="portfolio-padding">
+              <div class="portfolio-img-center"><img class="portfolio-img" src="img/port1.jpg" alt=""></div>
+              <p class="portfolio-tovar-name">Лампа 1</p>
+              <p class="portfolio-price">3 000 р.</p>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <div class="portfolio-padding">
+              <div class="portfolio-img-center"><img class="portfolio-img" src="img/port3.jpg" alt=""></div>
+              <p class="portfolio-tovar-name">Лампа 2</p>
+              <p class="portfolio-price">3 000 р.</p>
+            </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-padding">
+            <div class="portfolio-img-center"><img class="portfolio-img" src="img/port4.jpg" alt=""></div>
+            <p class="portfolio-tovar-name">Лампа 3</p>
+            <p class="portfolio-price">3 000 р.</p>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-padding">
+            <div class="portfolio-img-center"><img class="portfolio-img" src="img/port5.jpg" alt=""></div>
+            <p class="portfolio-tovar-name">Лампа 4</p>
+            <p class="portfolio-price">3 000 р.</p>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-padding">
+            <div class="portfolio-img-center"><img class="portfolio-img" src="img/port6.jpg" alt=""></div>
+            <p class="portfolio-tovar-name">Лампа 5</p>
+            <p class="portfolio-price">3 000 р.</p>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-padding">
+            <div class="portfolio-img-center"><img class="portfolio-img" src="img/port4.jpg" alt=""></div>
+            <p class="portfolio-tovar-name">Лампа 6</p>
+            <p class="portfolio-price">3 000 р.</p>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <br><br><br><br>
+  <h2 id="contacts-href" class="preim">Контакты</h2>
+  <p>Email: timskiyy33@gmail.com</p>
+  <p>Телефон: +7(950)016-08-55</p>
+  <br><br>
+</div>
+<footer>
+  <div class="container">
+    <div class="footer1">
+      <div class="footer-text">
+        <div class="social-icons">
+                <a href="https://vk.com/smetanakefir" class="social-link" target="_blank" title="VK">
+                    <img width="50px" src="img/vk.png" alt="vk" class="social-icon">
+                </a>
+                <a href="https://t.me/Molochnayaproduksiya" class="social-link" target="_blank" title="Telegram">
+                    <img width="50px" src="img/tg.png" alt="Telegram" class="social-icon">
+                </a>
+        <br>
+        <p class="f-text">Copyright © 2025 Лорд Света</p>
+      </div>
+      <div class="footer-sections">
+        <div class="f-section">
+          <p class="footer-title">ЛОРД СВЕТА</p>
+          <ul class="f-ul">
+            <li><a class="f-text" href="#obomne-href">Обо мне</a></li>
+            <li><a class="f-text" href="#preim-href">Преимущества</a></li>
+          </ul>
+        </div>
+        
+        <div class="f-section">
+          <p class="footer-title">КОНТАКТЫ</p>
+          <ul class="f-ul">
+            <li><a class="f-text" href="#">Телефон: +7(950)016-08-55</a></li>
+            <li><a class="f-text" href="#">Email: timskiyy33@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+  </div>
+  </div>
+  </div>
+</body>
+
+</html>
